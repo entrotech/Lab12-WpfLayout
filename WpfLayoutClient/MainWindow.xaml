@@ -1,0 +1,31 @@
+﻿<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    x:Class="WpfLayoutClient.MainWindow"
+    Title="WPF Layout"
+    Height="350" Width="525">
+    <StackPanel>
+        <Button
+			x:Name="CanvasButton"
+			Click="CanvasButton_Click">
+            <TextBlock><Run Text="Canvas"/></TextBlock>
+        </Button>
+        <Button
+			x:Name="WrapPanelButton"
+			Click="WrapPanelButton_Click" Content="Wrap Panel"/>
+        <Button
+			x:Name="DockPanelButton"
+			Click="DockPanelButton_Click" Content="Dock Panel"/>
+        <Button
+			x:Name="GridPanelButton"
+			Click="GridPanelButton_Click" Content="Grid Panel"/>
+        <Button
+            x:Name="NewTopWindowButton"
+            Click="NewTopWindow_Click" Content="New Top Window" />
+        <Button
+            x:Name="NewModalDialog"
+            Click="NewDialog_Click" Content="New Modal Dialog" />
+
+    </StackPanel>
+</Window>
+

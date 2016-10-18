@@ -1,0 +1,48 @@
+﻿<Window x:Class="WpfLayoutClient.WrapPanelWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WrapPanel" Height="300" Width="300">
+    <WrapPanel>
+        <Button
+            Width="100"
+            Height="80"
+            Margin="4" />
+        <Button
+            Width="100"
+            Height="80"
+            Margin="4" />
+        <Button
+            Width="100"
+            Height="80"
+            Margin="4" />
+        <Button
+            Width="100"
+            Height="80"
+            Margin="4" />
+        <Button
+            Width="100"
+            Height="80"
+            Margin="4" />
+        <Button
+            Width="100"
+            Height="80"
+            Margin="4" />
+        <Button
+            Width="100"
+            Height="80"
+            Margin="4" />
+        <Button
+            Width="100"
+            Height="80"
+            Margin="4" />
+        <Button
+            Width="100"
+            Height="80"
+            Margin="4" />
+        <Button
+            Width="100"
+            Height="80"
+            Margin="4" />
+
+    </WrapPanel>
+</Window>

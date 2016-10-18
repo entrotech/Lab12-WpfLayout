@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfLayoutClient.ModalDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Modal Dialog" Height="300" Width="300" WindowStyle="ToolWindow">
+    <StackPanel>
+        <Button x:Name="NewTopWindow" 
+                Click="NewTopWindow_Click" Content="New Top Window" />
+        <Button x:Name="NewDialog"
+                Click="NewDialog_Click" Content="New Modal Dialog" />
+        <Button x:Name="OkButton" IsDefault="true"
+                Click="OkButton_Click" Content="OK" />
+        <Button x:Name="CancelButton" IsCancel="true"
+                Click="CancelButton_Click" Content="Cancel" />
+    </StackPanel>
+</Window>

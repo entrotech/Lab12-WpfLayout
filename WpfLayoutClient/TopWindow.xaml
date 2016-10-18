@@ -1,0 +1,11 @@
+﻿<Window x:Class="WpfLayoutClient.TopWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Top Window" Height="300" Width="300">
+    <StackPanel>
+        <Button x:Name="NewTopWindow" 
+                Click="NewTopWindow_Click" Content="New Top Window" />
+        <Button x:Name="NewDialog"
+                Click="NewDialog_Click" Content="New Modal Dialog" />
+    </StackPanel>
+</Window>
